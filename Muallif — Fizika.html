@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muallif — Fizika</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f4f7fb;--card:#fff;--text:#1b2733;--muted:#5d6b7a;--accent:#2563eb;--accent-soft:#e3ecfd;--border:#dbe3ee}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f151d;--card:#18212c;--text:#e8eef5;--muted:#9aa8b8;--accent:#6ea0ff;--accent-soft:#1f2f4d;--border:#2a3646}}
+:root[data-theme="dark"]{--bg:#0f151d;--card:#18212c;--text:#e8eef5;--muted:#9aa8b8;--accent:#6ea0ff;--accent-soft:#1f2f4d;--border:#2a3646}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.wrap{max-width:520px;margin:0 auto;padding:16px}
+h1{font-size:1.25rem;margin:8px 0 14px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+nav a{padding:9px 14px;border-radius:999px;background:var(--card);border:1px solid var(--border);color:var(--text);text-decoration:none;font-size:.92rem}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px;text-align:center}
+.avatar{width:96px;height:96px;border-radius:50%;margin:0 auto 12px;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:2.4rem;font-weight:700}
+.name{font-size:1.3rem;font-weight:700;margin:0}
+.role{color:var(--accent);font-size:.95rem;margin:2px 0 14px}
+.bio{color:var(--muted);text-align:left;margin:0 0 16px}
+.info{display:grid;gap:8px;text-align:left}
+.row{display:flex;gap:10px;align-items:center;padding:10px 12px;border-radius:12px;background:var(--bg)}
+.row span:first-child{font-size:1.1rem}
+.row small{display:block;color:var(--muted);font-size:.75rem}
+.foot{text-align:center;color:var(--muted);font-size:.8rem;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Fizika — darslik va BSB/CHSB</h1>
+  <nav>
+    <a href="https://nozanin5.github.io/8-sinf-/">📘 Darslik</a>
+    <a href="https://nozanin5.github.io/8-sinf-/">📝 BSB va CHSB</a>
+    <a class="on" href="#">👤 Muallif</a>
+  </nav>
+
+  <section class="card">
+    <div class="avatar">N</div>
+    <p class="name">Nuriddinova Nozaninxon</p>
+    <p class="role">Talaba</p>
+    <p class="bio">Fizika fani bo‘yicha darslik va BSB/CHSB materiallari muallifi.</p>
+    <div class="info">
+      <div class="row"><span>🏫</span><div><small>Maktab</small>24-maktab</div></div>
+      <div class="row"><span>📞</span><div><small>Telefon</small>+998 77 311 31 14</div></div>
+    </div>
+  </section>
+
+  <p class="foot">© 2026 · Barcha huquqlar himoyalangan</p>
+</div>
+</body>
+</html>
